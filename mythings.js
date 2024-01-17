@@ -2,4 +2,4 @@ function myFunction() {
     alert ("Din lilla apa")
 }
 
-<button onclick="">Klicka</button>
+<button onclick="myFunction">Klicka</button>
