@@ -1,2 +1,5 @@
-let a = 4;
-let b = 6;
+function myFunction() {
+    alert ("Din lilla apa")
+}
+
+<button onclick="">Klicka</button>
