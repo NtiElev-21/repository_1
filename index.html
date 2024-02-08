@@ -1,11 +1,21 @@
-<head>header</head>
+<head>Logga in!</head>
 <body>
-  <h1> nej </h1>
+    <style>
+    .stylediv {
+      padding: 3px;
+    }
+  </style>
+  
   <form>
-    <label for="fornamn">First name:</label><br>
+    <div class="stylediv">
+    <label for="fornamn">Username:</label><br>
     <input type="text" id="fornamn" name="fname" maxlength="20"><br>
+    </div>
+
+    <div class="stylediv">
     <label for="efternamn">Password:</label><br>
     <input type="password" id="efternamn" name="password"><br>
+    </div>
     <input type="submit" value="Submit">
   </form>
 </body>
